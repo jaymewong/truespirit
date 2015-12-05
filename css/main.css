@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* index.html */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+body {
+	font-family: "Noto Sans", Arial, sans-serif;
+}
+
+
+@media screen and (min-width: 320px) {
+	body{font-size: 11px;}
+	h1 {font-size: 33px;}
+	h2 {font-size: 23px; line-height: 1.8;}
+	h3 {font-size: 15px;}
+	#hero{
+	height: 400px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	body{font-size: 12px;}
+	h1 {font-size: 30px;}
+	h2{font-size: 24px;}
+	h3{font-size: 20px;}
+	#hero{
+	height: 555px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	body{font-size: 14px;}
+	h1 {font-size: 36px;}
+	h2{font-size: 27px;}
+	h3{font-size: 20px;}
+	#hero{
+	height: 855px;
+	}
+}
+
+
+ .navbar-brand-centered {
+ 	margin: 50px auto 0 auto;
+ 	background: url(../Images/logohead_sm.png) no-repeat 0 0;    	
+ 	height: 120px;
+ 	width:300px;
+ 	position: relative;
+ 	display: block;
+
+ }
+
+ .navbar-nav{
+ 	display: block;
+ 	margin: 0 auto;
+ 	position: relative;
+	width: 300px;
+	float: none;
+ 
+ }
+
+.navbar-nav a{
+	text-transform: uppercase;
+
+}
+
+.navbar{
+	
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+.links {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 20px 20px 0 0;
+}
+
+.links a{
+	padding-left: 10px;
+}
+
+#hero{
+	position: relative;
+	width: auto;
+	overflow: hidden;
+}
+
+#hero img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+	overflow: hidden;
+
+}
+
+#hero .copy {
+	position: absolute;
+	top: 50%;
+	left: 100px;	
+	background: rgba(255,255,255,0.5);
+	padding: 1% 1% 2% 1%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+#hero .copy span{
+	padding-left: 80px;
+}
+
+#hero .copy a{
+	color: #ed4130;
+	text-transform: uppercase;
+	text-decoration: underline;
+
+}
+
+#howto h2{
+	text-align: left;
+	color: black;
+	margin: 40px 20px 0 30px;
+}
+
+#howto p{
+	text-align: justify;
+	color: black;
+	margin: 40px 20px 30px 30px;
+}
+
+#howto .btn-primary{
+	display: block;
+	margin: 30px auto 30px auto;
+	background-color: #07749e;
+  	font-size: 14px;
+  	text-transform: uppercase;
+  	color: #fff;
+	border: none;
+	border-radius: 0px;
+
+}
+
+#instruction .step{
+	padding: 0 40px 0 40px;
+}
+#instruction h2{
+	text-align: center;
+	text-transform: uppercase;	
+	margin: 30px auto 40px auto;
+}
+
+#instruction h3{
+	text-align: center;
+	margin: 30px auto 40px auto;
+}
+
+#instruction .glyphicon {
+	font-size: 62px;
+	color: #434240;
+	padding: 20px 20px;
+}
+
+
+/*Productpage*/
+.breadcrumb li{
+	float:none;
+	padding-bottom: 5px;
+}
+
+.product {
+	display: block;
+	margin: 0 auto;
+}
+
+
+#products img{
+	padding: 10px 30px 0 30px;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+#products .labels{
+	text-align: center;
+	color: #333;
+	margin: 0 auto;
+	
+}
+
+#products .box{
+
+}
+/*Productdetail.html*/
+
+#productdetail img {
+	height: 500px;
+	width: 500px;
+	padding: 20px 20px;
+	border: 3px solid lightgrey;
+}
+
+#productdetail .nav-pills li.active{
+	background-color: grey;
+}
+
+#productdetail .btn-primary {
+	border: none;
+	border-radius: 0;
+	margin: 40px 0 20px 0;
+	background-color: #f7695b;
+	position: absolute;
+}
+
+#productdetail .panel {
+	margin-top: 100px;
+}
+
+
+footer .legalese{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+footer hr{
+	border-top-color: #cecbc9;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+
+footer a, li{
+	color: #000;
+	float: right;
+	padding-bottom: 10px;
+}
+
+footer li:first-child{
+	float: left;
+}
